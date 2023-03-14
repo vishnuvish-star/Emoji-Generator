@@ -123,6 +123,6 @@ buttonEl.addEventListener("click", () => {
   let emojiIcon = emojisArray[Math.round(Math.random() * emojisArray.length)];
   // here emojisArray[] length is stored in emojiIcon variable
   // console.log(emoji);
-  // textcontent for stored in array[index] of which emoji is kept that is display in "p"(emojiDisplayEl)element.
+  // textContent for stored in array[index] of which emoji is kept that is display in "p"(emojiDisplayEl)element.
   emojiDisplayEl.textContent = emojiIcon;
 });
