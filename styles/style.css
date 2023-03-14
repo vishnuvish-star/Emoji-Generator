@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-color: #ebebeb;
+  padding: 5rem 0;
+}
+.card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffff;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 30px 0px;
+  text-align: center;
+}
+.card h2,
+.card p,
+.card button {
+  margin-bottom: 1rem;
+}
+.card p {
+  font-size: 10rem;
+}
+.card button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
